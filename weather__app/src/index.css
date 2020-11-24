@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Share&display=swap');
+
+body{
+  margin: 0px 0px;
+  font-family: Share;
+  height: 100vh;
+  overflow: hidden;
+  }
+
+.searchbox{
+  width: 80%;
+  display: block !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  padding: 10px 10px;
+  border-radius: 5px;
+  border-color: white;
+  border-left: white;
+  border-top: white;
+  box-shadow: 5px 6px rgba(0,0,0,0.2);
+}
+
+input:focus {
+  outline: none;
+}
+
+h2{
+  margin-top: 15vh;
+  text-align: center;
+}
+
+.temp-box{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background: white;
+  width: 100px;
+  padding: 35px;
+  border-radius: 12px;
+  opacity: 1;
+}
+
+.temp-box p{
+  text-align: center;
+  margin: 0px 0px;
+  font-size: 40px;
+}
+
+h1{
+  display: block;
+  text-align: center;
+}
+
+.def-heading{
+  margin-top: 20vh ;
+  color: white;
+}
+.Haze{
+  height: 100vh;
+  background:linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,0.25)), url("images/hazeun.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; 
+}
+
+.default{
+  height: 100vh;
+  background:linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,0.25)), url("images/initial.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; 
+}
+
+.Mist{
+  height: 100vh;
+  background:linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,0.25)), url("images/mistun.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; 
+}
+
+.Clear{
+  height: 100vh;
+  background:linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,0.25)), url("images/clearsky.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; 
+}
+
+.Clouds{
+  height: 100vh;
+  background:linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,0.25)), url("images/clouds.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; 
+}
+
+.Smoke{
+  height: 100vh;
+  background:linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,0.25)), url("images/smoke.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center; 
+}
+
+.Rain{
+  height: 100vh;
+  background:linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,0.25)), url("images/rainun.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center; 
+}
+
+.Fog{
+  height: 100vh;
+  background:linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,0.25)), url("images/fog.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center; 
+}
+h1.xyz{
+  color: white;
+}
+h2.xyz{
+  color: white;
+}
