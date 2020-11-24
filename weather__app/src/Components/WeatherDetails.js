@@ -1,7 +1,6 @@
 import React, { useState} from 'react'
 import axios from 'axios'
 
-const api_key = "7b263c376e730a553a4e7b6efe724e85"
 function WeatherDetails() {
 
     const [search, setSearch] = useState('')
@@ -12,9 +11,8 @@ function WeatherDetails() {
         if(e.key === "Enter")
         {
             setWeather('')
-            axios.get(`http://api.openweathermap.org/data/2.5/weather?q=${search}&appid=${api_key}`)
+            axios.get(`http://api.openweathermap.org/data/2.5/weather?q=${search}&appid=${process.env.REACT_APP_API_KEY}`)
             .then(res => {
-                console.log(res.data)
                 setWeather(res.data)
             })
             .catch(err => {
